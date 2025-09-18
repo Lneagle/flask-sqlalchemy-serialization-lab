@@ -15,4 +15,4 @@ def test_client():
         yield app.test_client()
 
         db.session.remove()
-        db.drop_all()
+       # db.drop_all()
